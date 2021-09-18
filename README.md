@@ -23,7 +23,7 @@ For this project, the first version was solved which has only one agent.
 
 ### Solving the Environment
 
-The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
+The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. In this implementation, the environment was solved in 60 episodes.
 
 ### Getting Started
 
@@ -47,7 +47,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
 2. Place the file in the DRLND GitHub repository, in the `p2_continuous-control/` folder, and unzip (or decompress) the file. 
 
-###Instructions
+### Instructions
 
 To start training the agent, run `main.py`.
 
