@@ -25,6 +25,12 @@ For this project, the first version was solved which has only one agent.
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. In this implementation, the environment was solved in 60 episodes.
 
+### Tips that helped satabilise the learning process
+
+1) Add noise decay when getting the action from the Local Acrtor network.
+2) Make the Learning Rate for the Critic network slightly less than the Actor network.
+3) Make the max time steps for each episode at least 1000.
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
